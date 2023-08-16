@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*menu hamburguer*/
+@import url("styles/header.css");
+
+/*variaveis*/
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco :#FFFFFF;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
