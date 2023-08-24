@@ -69,7 +69,7 @@
 }
 
 
-/*tela grande*/ 
+/* TELA TABLET*/
 @media screen and (min-width: 1024px) {
    
     .container__titulo, .container__titulo--negrito {
@@ -105,6 +105,15 @@
     }
 
     .cabeçalho__menu-hamburguer {
+        display: none;
+    }
+
+    .opções__botão:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão{
         display: none;
     }
 }

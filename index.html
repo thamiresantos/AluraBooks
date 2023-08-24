@@ -45,7 +45,30 @@
         </div>
 
         <ul class="opções">
-            <li class="opções__item">Categorias</li>
+            <input type="checkbox" id="opções__menu" class="opções__botão">
+            <label for="opções__menu">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
         </ul>
@@ -116,7 +139,7 @@
 
    <!--SEGUNDO CARROSSEL-->
     <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -197,8 +220,10 @@
 
     <!--contato e rodapé-->
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos liveos, promoções e outros.</p>
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos liveos, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
 
@@ -206,6 +231,81 @@
     
     <footer class="rodapé">
         <h2 class="rodapé__titulo">Grupo Alura</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Educação</li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/CasaDoCodigo.svg" alt="Logo da casa do código">
+                <a href="#" class="lista-rodapé__link">Casa do código</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/Caelum.svg" alt="Logo da Caelum">
+                <a href="#" class="lista-rodapé__link">Caelum</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Educação online</li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Alura</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+                <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/AluraLATAM.svg" alt="Logo da Alura LATAM">
+                <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/AluraStart.svg" alt="Logo da Alura Start">
+                <a href="#" class="lista-rodapé__link">Alura Start</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/MusicDot.svg" alt="Logo da MusicDot">
+                <a href="#" class="lista-rodapé__link">MusicDot</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/AluraLingua.svg" alt="Logo da Alura Lingua">
+                <a href="#" class="lista-rodapé__link">Alura Lingua</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/PM3.svg" alt="Logo da PM3">
+                <a href="#" class="lista-rodapé__link">PM3</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Comunidade</li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/HipstersTech.svg" alt="Logo da Hipsters Tech">
+                <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/ScubaDev.svg" alt="Logo da Scuba Dev">
+                <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/LayersTech.svg" alt="Logo da Layers Tech">
+                <a href="#" class="lista-rodapé__link">Layers para Tech</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/LikeABoss.svg" alt="Logo da Like a Boss">
+                <a href="#" class="lista-rodapé__link">Like a Boss</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/CarreiraSemFronteira.svg" alt="Logo da Carreira Sem Fronteira">
+                <a href="#" class="lista-rodapé__link">Carreira Sem Fronteira</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/HipstersJobs.svg" alt="Logo da Hipsters Jobs">
+                <a href="#" class="lista-rodapé__link">Hipsters ponto Jobs</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="imagens/GUJ.svg" alt="Logo da GUJ">
+                <a href="#" class="lista-rodapé__link">GUJ</a>
+            </li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
