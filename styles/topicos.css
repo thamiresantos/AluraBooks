@@ -39,3 +39,10 @@
         font-size: 24px;
     }
 }
+
+/* TELA DESKTOP */
+@media screen and (min-width:1728px) {
+    .tópicos {
+        padding: 3em 30vw;
+    }
+}
